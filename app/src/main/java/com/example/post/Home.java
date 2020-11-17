@@ -122,8 +122,8 @@ public class Home extends AppCompatActivity {
         popAddBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                popProgress.setVisibility(View.INVISIBLE);
-                popAddBtn.setVisibility(View.VISIBLE);
+                popProgress.setVisibility(View.VISIBLE);
+                popAddBtn.setVisibility(View.INVISIBLE);
                 if(!popTitle.getText().toString().isEmpty()
                    && ! popDescription.getText().toString().isEmpty()
                    && pickedImgUri !=null){
